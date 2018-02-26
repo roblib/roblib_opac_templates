@@ -1,0 +1,38 @@
+<record>
+    <leader>00620cam a2200205 a 4500</leader>
+    <controlfield tag="008">070101s2008    pic      abm  000 0 eng </controlfield>
+    <datafield tag="040" ind1="" ind2="">
+        <subfield code="a">CaPCU</subfield>
+    </datafield>
+    <datafield tag="090" ind1="" ind2="">
+        <subfield code="a">LE3.P8H66 200x xxx</subfield>
+    </datafield>
+    <datafield tag="100" ind1="1" ind2="">
+        <subfield code="a"></subfield>
+    </datafield>
+    <datafield tag="245" ind1="1" ind2="">
+        <subfield code="a"></subfield>
+        <subfield code="b"></subfield>
+        <subfield code="c"></subfield>
+    </datafield>
+    <datafield tag="260" ind1="" ind2="">
+        <subfield code="a">Charlottetown, P.E.I. : </subfield>
+        <subfield code="b">University of Prince Edward Island, </subfield>
+        <subfield code="c">200x.</subfield>
+    </datafield>
+    <datafield tag="300" ind1="" ind2="">
+        <subfield code="a">viii, xx leaves : </subfield>
+        <subfield code="b">ill. ; </subfield>
+        <subfield code="c">xx cm.</subfield>
+    </datafield>
+    <datafield tag="502" ind1="" ind2="">
+        <subfield code="a">Thesis (B.Xx. Honours) -- University of Prince Edward Island, 200x.</subfield>
+    </datafield>
+    <datafield tag="504" ind1="" ind2="">
+        <subfield code="a">Includes bibliographic references (leaves x-y).</subfield>
+    </datafield>
+    <datafield tag="710" ind1="2" ind2="">
+        <subfield code="a">University of Prince Edward Island. </subfield>
+        <subfield code="b">Dept. of Xxxx.</subfield>
+    </datafield>
+</record>
