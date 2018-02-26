@@ -1,0 +1,10 @@
+20170615  post migration
+
+in this templates dir...
+
+opac directory is brought over entirely from last and past versions so 2.10.6  This is getting read first before the default
+marc directory is updated from 2.10.6 as well.
+
+All other directories are copies of the 2.12.2 default templates.
+
+The staff dir will require changes as of this

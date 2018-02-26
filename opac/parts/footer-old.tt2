@@ -1,0 +1,145 @@
+<div id="footer-wrap">
+
+<!-- NEW FOOTER -->
+
+<div class="footer-links">
+<div class="clear-block clr" id="links-section">
+  <div class="section bottom-links menu-01 bl-first">
+  <h2 class="title">About UPEI</h2>
+
+  <ul class="menu">
+
+    <li class="leaf first"><a href="http://home.upei.ca/about-upei/history" title="">History</a></li>
+    <li class="leaf"><a href="http://home.upei.ca/about-upei/mission-and-goals" title="">Mission</a></li>
+    <li class="leaf"><a href="http://home.upei.ca/about-upei/governance" title="">Governance</a></li>
+    <li class="leaf"><a href="http://upei.ca/president" title="">President</a></li>
+    <li class="leaf"><a href="http://hr.upei.ca/career-opportunities" title="">Employment</a></li>
+    <li class="leaf"><a href="http://www.upei.ca/campuslogin" title="">Campus Login</a></li>
+		<li class="leaf"><a href="http://www.upei.ca/map" title="">Campus Map</a></li>
+  </ul>
+
+  &nbsp;
+</div>
+<div class="section bottom-links menu-02">
+  <h2 class="title">Academics</h2>
+  <ul class="menu">
+    <li class="leaf first"><a href="http://arts.upei.ca/" title="">Arts</a></li>
+    <li class="leaf"><a href="http://education.upei.ca/" title="">Education</a></li>
+    <li class="leaf"><a href="http://science.upei.ca/" title="">Science</a></li>
+    <li class="leaf"><a href="http://avc.upei.ca/" title="">Veterinary Medicine</a></li>
+    <li class="leaf"><a href="http://business.upei.ca/" title="">Business</a></li>
+    <li class="leaf"><a href="http://nursing.upei.ca/" title="">Nursing</a></li>
+    <li class="leaf"><a href="http://lifelonglearning.upei.ca/" title="">Continuing Education</a></li>
+
+  </ul>
+
+&nbsp;
+</div>
+<div class="section bottom-links menu-03">
+  <h2 class="title">Current Students</h2>
+  <ul class="menu">
+    <li class="leaf first"><a href="http://ar.upei.ca" title="">Athletics / Recreation</a></li>
+    <li class="leaf"><a href="http://www.upei.ca/studentlife/timetables" title="">Official Timetable</a></li>
+    <li class="leaf"><a href="http://upei.ca/studentlife/student-affairs" title="">Student Affairs</a></li>
+    <li class="leaf"><a href="http://moodle.upei.ca" title="">Moodle @ UPEI</a></li>
+    <li class="leaf"><a href="http://library.upei.ca" title="">Library</a></li>
+    <li class="leaf"><a href="http://mymail.upei.ca" title="">Student Email</a></li>
+    <li class="leaf"><a href="http://bookstore.upei.ca/" title="">Bookstore</a></li>
+
+  </ul>
+
+&nbsp;
+</div>
+<div class="section bottom-links menu-04">
+  <h2 class="title">Apply to UPEI</h2>
+  <ul class="menu">
+    <li class="leaf first"><a href="http://students.upei.ca" title="">Why UPEI?</a></li>
+    <li class="leaf"><a href="http://upei.ca/map" title="">Getting to UPEI</a></li>
+    <li class="leaf"><a href="http://www.upei.ca/studentlife/first-year-advisement" title="">First Year Advisement</a></li>
+    <li class="leaf"><a href="http://www.upei.ca/studentlife/registrar/financial-aid" title="">Financial Aid</a></li>
+    <li class="leaf"><a href="http://upei.ca/scholarships" title="">Scholarships</a></li>
+    <li class="leaf"><a href="http://home.upei.ca/about-upei/visit-the-campus/upei-campus-tour" title="">Schedule a Tour</a></li>
+    <li class="leaf"><a href="http://upei.ca/studentlife/residence" title="">UPEI Residence</a></li>
+
+</ul>
+
+&nbsp;
+</div>
+<div class="section bottom-links menu-05">
+   <h2 class="title">Research</h2>
+   <ul class="menu">
+       <li class="leaf first"><a href="http://research.upei.ca/blogs/external" title="">Research Blog</a></li>
+       <li class="leaf"><a href="http://research.upei.ca/rs" title="">Research Services</a></li>
+       <li class="leaf"><a href="http://research.upei.ca/faannouncements" title="">Funding Opportunities</a></li>
+       <li class="leaf"><a href="http://research.upei.ca/researcherlist" title="">Find a Researcher</a></li>
+       <li class="leaf"><a href="http://threeoaksinnovations.com" title="">Three Oaks Innovations</a></li>
+       <li class="leaf"><a href="http://research.upei.ca/forms" title="">Research Forms</a></li>
+       <li class="leaf"><a href="http://research.upei.ca/staff" title="">Research Contacts</a></li>
+
+   </ul>
+
+&nbsp;
+</div>
+
+</div>
+<div class="footeraddress">
+	<div class="inner-footeraddress">
+		<div class="addressleft">
+		<div class="address">
+			550 University Avenue, Charlottetown<br /> 
+			Prince Edward Island, Canada C1A 4P3<br />
+
+		</div>
+
+		<div class="links-last">
+		<a href="http://www.upei.ca/emergency/">Emergency Preparedness</a> | 
+		<a href="http://home.upei.ca/about-upei/publications">Publications</a> | 
+		<a href="https://cab.upei.ca/privacy-committee">Privacy Policy</a> | 
+		<a href="http://home.upei.ca/disclaimer">Disclaimer</a> | 
+		<a href="http://home.upei.ca/about-website">About this Website</a> | 
+		<a href="http://upeitest.desk.com/customer/widget/emails/new?ticket[custom_upei_url]=http%3A//home.upei.ca/&">Contact UPEI</a>&nbsp;&nbsp;&nbsp;
+		</div>
+		</div>
+		<div class="footerlogo"><img src="http://files.upei.ca/misc/shieldfooter.png"></div>
+    <div class="socialmedia">
+		<a class="noicon" href="http://facebook.com/UniversityofPEI"><img src="http://files.upei.ca/misc/social/upei_facebook.png"></a>
+    <a class="noicon" href="http://twitter.com/upei"><img src="http://files.upei.ca/misc/social/upei_twitter.png"></a>
+    <a class="noicon" href="http://youtube.com/UofPEI"><img src="http://files.upei.ca/misc/social/upei_youtube.png"></a>
+    <a class="noicon" href="http://flickr.com/groups/upei"><img src="http://files.upei.ca/misc/social/upei_flickr.png"></a>
+		</div>
+		
+	</div>
+</div>
+</div>
+<!--END OF NEW FOOTER -->
+
+<!-- ORIGINAL FOOTER
+<div id="footer">
+    <a href="/">[% l('Dynamic catalog') %]</a> &nbsp;|&nbsp;
+    <a href="http://library.upei.ca/">[% l('Robertson Library Home Page') %]</a> &nbsp;|&nbsp;
+    <a href="http://open-ils.org/dokuwiki/doku.php?id=evergreen-user:opac_help">[% l('Help') %]</a> &nbsp;|&nbsp;
+    <a href="http://library.upei.ca/node/1337/">[% l('About Robertson Library') %]</a> &nbsp;|&nbsp;
+    <a href="http://upei.ca/">[% l('UPEI') %]</a>
+    [% IF ctx.timing %]
+    <div id="timing">
+        [% FOR event IN ctx.timing %]
+        At <span class="timing-time">[% event.0 | format("%0.4f") %]</span>:
+        <span class="timing-event">[% event.1 %]</span><br />
+        [% END %]
+    </div>
+    [% END %]
+    <div id="copyright_text" style="margin-top: 2em;">
+        [% l('Copyright &copy; 2006-[_1] Georgia Public Library Service, and others', date.format(date.now, '%Y')) %]
+    </div>
+    <div id="footer_logo">
+        [% l('Powered by') %]
+        <a href="http://evergreen-ils.org">
+            <img src="[% ctx.media_prefix %]/opac/images/eg_tiny_logo.png"
+                style="border:none; width: 94px; height: 16px;"
+                alt="[% l('Evergreen') %]"
+            />
+        </a>
+    </div>
+</div>
+END OF ORIGINAL FOOTER -->
+</div>

@@ -1,0 +1,92 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <img src="[% ctx.media_prefix %]/images/portal/logo.png"/>
+    </div>
+  </div>
+  <br/>
+  <div class="row" id="splash-nav">
+
+    <div class="col-md-4">
+      <div class="panel panel-success">
+        <div class="panel-heading">
+          <div class="panel-title text-center">[% l('Circulation and Patrons') %]</div>
+        </div>
+        <div class="panel-body">
+          <div>
+            <img src="[% ctx.media_prefix %]/images/portal/forward.png"/>
+            <a target="_self" href="./circ/patron/bcsearch">[% l('Check Out Items') %]</a>
+          </div>
+          <div>
+            <img src="[% ctx.media_prefix %]/images/portal/back.png"/>
+            <a target="_self" href="./circ/checkin/index">[% l('Check In Items') %]</a>
+          </div>
+          <div>
+            <img src="[% ctx.media_prefix %]/images/portal/retreivepatron.png"/>
+            <a target="_self" href="./circ/patron/search">[% l('Search For Patron By Name') %]</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="panel panel-success">
+        <div class="panel-heading">
+          <div class="panel-title text-center">[% l('Item Search and Cataloging') %]</div>
+        </div>
+        <div class="panel-body">
+          <div class="row">
+            <div class="col-md-8">
+                <input focus-me="focus_search" 
+                    class="form-control" ng-model="cat_query" type="text" 
+                    ng-keypress="catalog_search($event)"
+                    placeholder="[% l('Search catalog for...') %]"/>
+            </div>
+            <div class="col-md-4">
+                <button class='btn btn-default' ng-click="catalog_search()">
+                    [% l('Search') %]
+                </button>
+            </div>
+          </div>
+          <div>
+            <img src="[% ctx.media_prefix %]/images/portal/bucket.png"/>
+            <a target="_self" href="./cat/bucket/record/">[% l('Record Buckets') %]</a>
+          </div>
+          <div>
+            <img src="[% ctx.media_prefix %]/images/portal/bucket.png"/>
+            <a target="_self" href="./cat/bucket/copy/">[% l('Copy Buckets') %]</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="panel panel-success">
+        <div class="panel-heading">
+          <div class="panel-title text-center">[% l('Administration') %]</div>
+        </div>
+        <div class="panel-body">
+          <div>
+            <img src="[% ctx.media_prefix %]/images/portal/helpdesk.png"/>
+            <a target="_top" href="http://docs.evergreen-ils.org/">
+              [% l('Evergreen Documentation') %]
+            </a>
+          </div>
+          <div>
+            <img src="[% ctx.media_prefix %]/images/portal/helpdesk.png"/>
+            <a target="_top" href="./admin/workstation/index">
+              [% l('Workstation Administration') %]
+            </a>
+          </div>
+          <div>
+            <img src="[% ctx.media_prefix %]/images/portal/reports.png"/>
+            <a target="_top" href="./reporter/legacy/main">
+              [% l('Reports') %]
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>

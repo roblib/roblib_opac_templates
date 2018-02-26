@@ -1,0 +1,5 @@
+modified authors.tt2 after copying to authors.tt2.backup
+
+took out the 508 field entirely with reference to "Cast" 
+
+This really should be Credits according to MARC21.
