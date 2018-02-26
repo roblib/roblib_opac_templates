@@ -1,3 +1,36 @@
 Removed:
 ./locale/*
 ./actors/*
+./acq/*
+
+to be removed: 
+cat
+circ
+kpac
+
+
+Needs attention (see below for details):
+./serial/
+./conify/
+
+Notes:
+- diff of serial: 
+Only in ../templates/serial: edit_siss.tt2
+Only in circ: hold_pull_list.tt2
+Only in ../templates/serial: list_item.tt2
+Only in ../templates/serial: list_stream.tt2
+Only in ../templates/serial: list_subscription.tt2
+Only in ../templates/serial: print_routing_list_users.tt2
+Only in circ: selfcheck
+Only in ../templates/serial: subscription
+Only in ../templates/serial: subscription.tt2
+
+
+- diff of conify
+Files conify/global/config/hard_due_date.tt2 and ../templates/conify/global/config/hard_due_date.tt2 differ
+Files conify/global/config/hard_due_date_values.tt2 and ../templates/conify/global/config/hard_due_date_values.tt2 differ
+
+
+- diff of marc
+Only in marc: book.xml.default
+Only in marc: upei_honours.xml

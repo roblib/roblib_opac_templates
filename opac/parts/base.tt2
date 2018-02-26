@@ -11,7 +11,7 @@
         <meta name = "viewport" content = "initial-scale = 1.0">
         <link rel="stylesheet" type="text/css" href="[% ctx.media_prefix %]/css/skin/default/opac/semiauto.css" />
         <link rel="stylesheet" type="text/css" href="[% ctx.opac_root %]/css/style.css" />
-		<link href='fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<link href='//fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
         <title>[% l('Catalogue - [_1]', ctx.page_title) %]</title>
         <link rel="unapi-server" type="application/xml" title="unAPI" href="/opac/extras/unapi" />
         <link type="application/opensearchdescription+xml" rel='search' title="[% l('Evergreen OpenSearch') %]" href="/opac/extras/opensearch/1.1/[% ctx.get_aou(ctx.search_ou).shortname %]/-/osd.xml" />
