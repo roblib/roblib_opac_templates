@@ -13,7 +13,7 @@
 </div>
 [% END %]
 
-<div id='login-form-box' class='login_boxes left_brain' style='float:left'>
+<div id='login-form-box' class='login_boxes left_brain float-left'>
     <h1>[% l('Log in to Your Account') %]</h1>
     [% l('Please enter the following information:') %]
     <form method='post'>
@@ -46,12 +46,13 @@
             IF !redirect OR redirect.match(ctx.path_info _ '$');
                 redirect = CGI.url('-full' => 1) _ '/opac/myopac/main';
             END;
-             redirect = redirect  | replace('^http:', 'https:');
+                redirect = redirect  | replace('^http:', 'https:');
             %]
-            <input type='hidden' name='redirect_to' value='[% redirect %]'/>
+            <input type='hidden' name='redirect_to' value='[% redirect | html %]'/>
             <input type="checkbox" name="persist" id="login_persist" /><label for="login_persist"> [% l('Stay logged in?') %]</label>
             <input type="submit" value="[% l('Log in') %]" alt="[% l('Log in') %]" class="opac-button" />
         </div>
+        <input id="client_tz_id" name="client_tz" type="hidden" />
     </form>
 </div>
 <!-- [% INCLUDE "opac/parts/login/help.tt2" %] -->
