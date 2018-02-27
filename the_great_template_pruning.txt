@@ -18,3 +18,5 @@ Needs attention (see below for details):
 Notes:
 /opac/parts/misc_util.tt2 has custom code
 - I merged the old and new
+
+/parts/record/contents.tt2 has custom code (kept the local template)
