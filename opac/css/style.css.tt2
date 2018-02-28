@@ -66,6 +66,10 @@ font-weight: 400;
 padding-right: 40px;
 }
 
+.refine_search {
+    padding-bottom: 7px;
+    margin-left: 1em;
+}
 /*
 #search-wrapper select {
     border:0px solid [% css_colors.border_dark %];
@@ -127,12 +131,12 @@ div.select-box-wrapper {
     display:inline-block;
 }
 
-#dashboard {
+#dashboard, #dashboard_e {
     height: 3em;
     margin: 10px 0;
 }
 
-#dashboard span.dash-align a {
+#dashboard span.dash-align a, #dashboard_e span.dash-align a {
     font-weight: bold;
     text-decoration: none;
 }
@@ -143,9 +147,9 @@ div.select-box-wrapper {
 
 #logout_link { left: 1px; }
 
-#dash_checked { color: [% css_colors.text_attention %]; }
-#dash_holds { color: [% css_colors.text_attention %]; }
-#dash_pickup { color: [% css_colors.text_goodnews %]; }
+#dash_checked, #dash_e_checked { color: [% css_colors.text_attention %]; }
+#dash_holds, #dash_e_holds { color: [% css_colors.text_attention %]; }
+#dash_pickup, #dash_e_pickup { color: [% css_colors.text_goodnews %]; }
 
 /*  
 #dash_fines { color: [% css_colors.text_badnews %]; }
@@ -154,6 +158,27 @@ is too low for WCAG compliance.  Use "text_attention"
 for now until a better color is picked - if needed.
 */
 #dash_fines { color: [% css_colors.text_attention %]; }
+
+#dash_wrapper #dash_user_message_button_container {
+    display: inline;
+    padding: 0;
+}
+#dash_wrapper #unread_message_count_floater {
+    position: absolute;
+    background-color: [% css_colors.text_alert %];
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    display: inline-block;
+    font-size: 95%;
+    border-radius: 0;
+    z-index: 2;
+    margin-top: 0.2em;
+    [% IF rtl == 't' -%]
+    margin-right: -1.5em;
+    [%- ELSE %]
+    margin-left: -1.5em;
+    [%- END %]
+}
 
 #header-wrap {
     border-bottom: 1px solid rgb(183, 183, 183);
@@ -939,6 +964,74 @@ table.acct_notes th {
     border-collapse: collapse;
 }
 
+.acct_fines_header
+{
+   width: 100%;
+   padding-bottom:1em;
+   [% IF rtl == 't' -%]
+   float: right;
+   [% ELSE -%]
+   float:left;
+   [% END -%]
+}
+
+/* tables for entering payment information */
+#acct_fines_main_header, 
+#acct_fees_main_header
+{
+   width: 100%;
+}
+
+/* tables for entering payment information */
+#billing_info_table
+{
+    width: auto;
+    [% IF rtl == 't' -%]
+    float: right;
+    [% ELSE -%]
+    float:left;
+    [% END -%]
+    display:inline;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+/* tables for entering payment information */
+#credit_card_info_table
+{
+    width: auto;
+    display: block;
+}
+
+/* tables for entering payment information */
+#billing_info_table td,
+#credit_card_info_table td
+{
+   [% IF rtl == 't' -%]
+    padding-right: .5em;
+    [% ELSE -%]
+    padding-left: .5em;
+    [% END -%]
+   
+}
+
+/* div for the payment buttons with the total */
+#payment_actions
+{
+   width: auto;
+   display: block;
+   padding: 1em 0 0 1em;
+   text-align:center;
+}
+
+/* text to state what is seen on cc statement */
+.cc_disclaimer
+{
+   font-style:italic;
+   font-size: 90%;
+   color:[% css_colors.primary_fade %];
+}
+
 .hold_notes {
     text-transform: none;
     font-weight: normal;
@@ -1006,6 +1099,11 @@ table.acct_notes th {
 .myopac_payments_table form { display: inline; }
 .myopac_payments_table input[type="submit"] { padding: 1px; }
 
+.cc_header
+{
+   padding-top:1em;
+   background-color: [% css_colors.accent_lighter %];
+}
 .payment-error {
     font-weight: bold; color: [% css_colors.text_alert %];
     padding: 10px; border: 1px solid [% css_colors.accent_medium_dark %];
@@ -1047,6 +1145,78 @@ div.adv_search_available {
     margin: auto;
 }
 
+/* styling for advanced search filters that display with searchbar */
+
+#adv_filter_results_block h4 { display: inline; }
+
+#adv_filter_results_block {
+    margin-top: 6px;
+}
+
+.adv_filter_results_block_label {
+    font-weight:bold;
+    [% IF rtl == 't' -%]
+    padding: 4px 12px 4px 0px;
+    [% ELSE -%]
+    padding: 4px 0px 4px 12px;
+    [% END -%]
+}
+
+.adv_filter_results_group {
+    font-size: 12px;
+    display: inline-block;
+    background-color:  [% css_colors.accent_lighter2 %];
+    border-style: solid;
+    border-color: [% css_colors.accent_medium %];
+    border-width: 1px;
+    border-radius: 4px;
+    padding: 2px 4px 2px 4px;
+}
+
+.adv_filter_results_group_wrapper {
+    display: inline-block;
+    [% IF rtl == 't' -%]
+    margin-right: 1em;
+    [% ELSE -%]
+    margin-left: 1em;
+    [% END -%]
+    margin-bottom: 8px;
+}
+
+.adv_filter_results_group_header {
+    display: inline-block;
+}
+
+.adv_filter_results_group_values {
+    display: inline;
+}
+
+.adv_search_result_filter {
+    display: inline-block;
+}
+
+.remove_filter {
+    font-size: 16px;
+    [% IF rtl == 't' -%]
+    margin-right: 3px;
+    [% ELSE -%]
+    margin-left: 3px;
+    [% END -%]
+}
+
+a.remove_filter {
+    text-decoration: none;
+    color: [% css_colors.accent_dark %];
+}
+
+#filter_hits {
+     display: inline-block;
+}
+
+#refine_search_link {
+    display: inline-block;
+}
+
 [%- IF we_want_to_turn_on_facet_styling.defined; %]
 /* some facet styling */
 .facetClassContainer { margin: 2px; border: 1px solid [% css_colors.accent_light %]; }
@@ -1086,9 +1256,18 @@ div#facet_sidebar {
     border-top-right-radius: 4px;
     color:[% css_colors.text_invert %];
     padding-top:4px;
-    /*font-weight:bold;*/
+}
+.facet_box_temp.filter_box_temp .header {
+    background-color: [% css_colors.background_invert %] !important;
 }
 
+.filter_box_label {
+    color: [% css_colors.background_invert %];
+    font-weight:bold;
+    padding-top:4px;
+    padding-bottom:4px;
+    padding-left:12px;
+}
 .facet_box_temp .header .title {
     float:left;
     padding-top:6px;
@@ -1123,6 +1302,14 @@ div#facet_sidebar {
     margin-bottom: 10px;
 }
 
+.filter_box_wrapper {
+    margin-bottom: 3px;
+    padding: 2px;
+    border: 1px solid [% css_colors.background_invert %];
+    border-radius: 3px;
+    font-weight:bold;
+    padding-top:4px;
+}
 .facet_template {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -1134,6 +1321,10 @@ div#facet_sidebar {
 .facet_template div {
     display: table-cell;
     padding: 2px;
+}
+
+.facet_template.filter_template div {
+    padding: 0px !important;
 }
 
 .facet_template .count {
@@ -1263,6 +1454,17 @@ a.dash-link:hover { text-decoration: underline !important; }
 .hold-items-list-title { font-size: [% css_fonts.size_bigger %]; }
 .hold-items-list-problem { color: [% css_colors.text_alert %]; }
 
+.hold_success_links > span { margin: 0 2em; }
+
+.radio-parts-selection { 
+   width: 75%;
+   margin-bottom: 20px;
+}
+
+.parts-radio-option { 
+  display: inline-block;
+  width:15em;
+}
 .mr_holds_no_formats { 
   padding: 5px;
   margin-left: 25px;
@@ -1759,8 +1961,30 @@ a.preflib_change {
     font-size: [% css_fonts.size_bigger %];
 }
 
+/* styling for sms text call number */
+.sms_text pre {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: [% css_fonts.size_medium %];
+    background-color: [% css_colors.accent_lightest %];
+    padding: .5%;
+    /* Allow text to wrap */
+    white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
 .mobile_view {
    display:none;
+}
+
+/* patron message center */
+#myopac_message_tbody {
+    vertical-align: top;
+}
+.myopac_message_message {
+    white-space: pre-wrap;
 }
 
 @media only screen and (max-width: 800px) {
