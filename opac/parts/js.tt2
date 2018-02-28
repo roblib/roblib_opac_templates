@@ -1,4 +1,3 @@
-
 <!-- JS imports, etc.  -->
 <script type="text/javascript" src="[% ctx.media_prefix %]/js/ui/default/opac/simple.js[% ctx.cache_key %]"></script>
 [% INCLUDE "opac/i18n_strings.tt2" %]
@@ -6,16 +5,6 @@
 [% IF ctx.want_jquery %]
 <script type="text/javascript" src="[% ctx.media_prefix %]/js/ui/default/common/build/js/jquery.min.js[% ctx.cache_key %]"></script>
 [% END; # ctx.want_jquery %]
-
-<!-- Rob Addded this (ask us widget)  -->
-<script type="text/javascript">
-  (function() {
-    var x = document.createElement("script"); x.type = "text/javascript"; x.async = true;
-    x.src = (document.location.protocol === "https:" ? "https://" : "http://") + "ca.libraryh3lp.com/js/libraryh3lp.js?5343";
-    var y = document.getElementsByTagName("script")[0]; y.parentNode.insertBefore(x, y);
-  })();
-</script>
-<!-- End of Robs edit  -->
 
 <!-- DOB validation for Patron Registration in OPAC -->
 <script type="text/javascript">
@@ -31,6 +20,14 @@
 }
 </script>
 
+<!-- Rob Addded this (ask us widget)  -->
+<script type="text/javascript">
+  (function() {
+    var x = document.createElement("script"); x.type = "text/javascript"; x.async = true;
+    x.src = (document.location.protocol === "https:" ? "https://" : "http://") + "ca.libraryh3lp.com/js/libraryh3lp.js?5343";
+    var y = document.getElementsByTagName("script")[0]; y.parentNode.insertBefore(x, y);
+  })();
+</script>
 [%- IF ctx.use_stripe %]
 <script type="text/javascript">unHideMe($("pay_fines_now"));[%# the DOM is loaded now, right? %]</script>
 [% END -%]
