@@ -1,2 +1,0 @@
-<!-- insert the patron registration UI -->
-<eg-embed-frame url="message_center_url" handlers="funcs"></eg-embed-frame>

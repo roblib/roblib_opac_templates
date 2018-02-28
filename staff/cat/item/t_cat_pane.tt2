@@ -1,3 +1,0 @@
-<h3>[% l('MARC Record') %]</h3>
-
-<eg-record-html record-id="recordId"></eg-record-html>

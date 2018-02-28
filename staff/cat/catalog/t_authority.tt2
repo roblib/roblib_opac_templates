@@ -1,3 +1,0 @@
-<div ng-show="authority_id" class="row col-md-12">
-  <eg-marc-edit-record dirty-flag="stop_unload" record-id="authority_id" record-type="are" />
-</div>
