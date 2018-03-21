@@ -1,0 +1,74 @@
+<record>
+  <leader>00620cam a2200205Ka 4500</leader>
+  <controlfield tag="008">070101s                            eng d</controlfield>
+  <datafield tag="010" ind1="" ind2="">
+    <subfield code="a"></subfield>
+  </datafield>
+  <datafield tag="020" ind1="" ind2="">
+    <subfield code="a"></subfield>
+  </datafield>
+  <datafield tag="082" ind1="0" ind2="4">
+    <subfield code="a"></subfield>
+  </datafield>
+<datafield tag="040" ind1="" ind2="">
+    <subfield code="a">CaPCU</subfield>
+  </datafield>
+  <datafield tag="100" ind1="1" ind2="0">
+    <subfield code="a"></subfield>
+  </datafield>
+  <datafield tag="245" ind1="" ind2="">
+    <subfield code="a"></subfield>
+    <subfield code="b"></subfield>
+    <subfield code="c"></subfield>
+  </datafield>
+  <datafield tag="260" ind1="" ind2="">
+    <subfield code="a"></subfield>
+    <subfield code="b"></subfield>
+    <subfield code="c"></subfield>
+  </datafield>
+  <datafield tag="300" ind1="" ind2="">
+    <subfield code="a">1 online resource (xix, xxpages)</subfield>
+    <subfield code="b"></subfield>
+    <subfield code="c"></subfield>
+  </datafield>
+  <datafield tag="336" ind1="" ind2="">
+    <subfield code="a">text</subfield>
+    <subfield code="b">txt</subfield>
+    <subfield code="2">rdacontent</subfield>
+  </datafield>
+  <datafield tag="337" ind1="" ind2="">
+    <subfield code="a">computer</subfield>
+    <subfield code="a">c</subfield>
+    <subfield code="a">rdamedia</subfield>
+  </datafield>
+  <datafield tag="338" ind1="" ind2="">
+    <subfield code="a">online resource</subfield>
+    <subfield code="a">cr</subfield>
+    <subfield code="a">rdacarrier</subfield>
+  </datafield>
+  <datafield tag="500" ind1="" ind2="">
+    <subfield code="a"></subfield>
+  </datafield>
+  <datafield tag="504" ind1="" ind2="">
+    <subfield code="a"></subfield>
+  </datafield>
+  <datafield tag="505" ind1="" ind2="">
+    <subfield code="a">Contents</subfield>
+  </datafield>
+  <datafield tag="520" ind1="" ind2="">
+    <subfield code="a">Summary</subfield>
+  </datafield>
+  <datafield tag="650" ind1="" ind2="0">
+    <subfield code="a"></subfield>
+  </datafield>
+  <datafield tag="650" ind1="" ind2="0">
+    <subfield code="a"></subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2="0">
+    <subfield code="u"></subfield>
+    <subfield code="y"></subfield>
+  </datafield>
+  <datafield tag="940" ind1="" ind2="">
+    <subfield code="a"></subfield>
+  </datafield>
+</record>
