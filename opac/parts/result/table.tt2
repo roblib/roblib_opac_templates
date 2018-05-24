@@ -354,6 +354,7 @@ END;
                                                                 [% END %]
                                                                         </tbody>
                                                                     </table>
+                                                                    <!-- mark -->
                                                                 </td>
                                                             </tr>
                                                             [%- has_parts = 'false';
@@ -362,6 +363,7 @@ END;
                                                         [% END %] <!-- END detail_record_view -->
                                                     </table>
                                                     [% PROCESS "opac/parts/result/copy_counts.tt2" %]
+                                                                    <!-- mark2 -->
                                                     [% IF rec.user_circulated %]
                                                     <div class="result_item_circulated">
                                                         <img src="[% ctx.media_prefix %]/images/green_check.png" alt="[% l('Checked Out Before') %]"/>
@@ -452,6 +454,7 @@ END;
                     [% END %]
                     </tbody>
                 </table>
+                                                                    <!-- mark3 -->
             </div>
 </div>
 <div class="result_footer_nav1">
