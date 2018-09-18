@@ -174,6 +174,9 @@ contents =  [
     }, {
         label => l('Robertson Library Holdings: '),
         xpath => '//*[@tag="591"]'
+    }, {
+        label => l('Host Item: '),
+        xpath => '//*[@tag="773"]'
     }
 
 ];
@@ -194,7 +197,7 @@ BLOCK render_contents;
             NEXT UNLESS code.match('[a-z]');
             all_content.push(subfield.textContent);
         END;
-        total_contents = all_content.join(" ").replace('\s+$', '');
+        total_contents = all_content.join(". ").replace('\s+$', '');
         %] [% total_contents;
         IF total_contents.size; "<br/>"; END;
         FOREACH link880 IN graphics;
