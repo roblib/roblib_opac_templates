@@ -1,0 +1,74 @@
+<record>
+  <leader>00620cam a2200205 a 4500</leader>
+  <controlfield tag="008">070101s2008    pic      abm  000 0 eng</controlfield>
+  <datafield tag="020" ind1="" ind2="">
+    <subfield code="a"></subfield>
+  </datafield>
+<datafield tag="040" ind1="" ind2="">
+    <subfield code="a">CaPCU</subfield>
+  </datafield>
+  <datafield tag="100" ind1="1" ind2="0">
+    <subfield code="a"></subfield>
+    <subfield code="e">author.</subfield>
+  </datafield>
+  <datafield tag="245" ind1="" ind2="">
+    <subfield code="a"></subfield>
+    <subfield code="b"></subfield>
+    <subfield code="c"></subfield>
+  </datafield>
+  <datafield tag="264" ind1="" ind2="1">
+    <subfield code="a">Charlottetown, P.E.I.</subfield>
+    <subfield code="b">University of Prince Edward Island,</subfield>
+    <subfield code="c">201x</subfield>
+  </datafield>
+  <datafield tag="300" ind1="" ind2="">
+    <subfield code="a">xx leaves:</subfield>
+    <subfield code="b">illustrations ;</subfield>
+    <subfield code="c">28 cm</subfield>
+  </datafield>
+  <datafield tag="336" ind1="" ind2="">
+    <subfield code="a">text</subfield>
+    <subfield code="b">txt</subfield>
+    <subfield code="2">rdacontent</subfield>
+  </datafield>
+  <datafield tag="337" ind1="" ind2="">
+    <subfield code="a">unmediated</subfield>
+    <subfield code="a">n</subfield>
+    <subfield code="a">rdamedia</subfield>
+  </datafield>
+  <datafield tag="338" ind1="" ind2="">
+    <subfield code="a">volume</subfield>
+    <subfield code="a">nc</subfield>
+    <subfield code="a">rdacarrier</subfield>
+  </datafield>
+  <datafield tag="500" ind1="" ind2="">
+    <subfield code="a">"In Fulfillment of XXXX XXXX Degree"--cover.</subfield>
+  </datafield>
+  <datafield tag="502" ind1="" ind2="">
+    <subfield code="a">Thesis</subfield>
+    <subfield code="b">(B.Xx.)</subfield>
+    <subfield code="c">University of Prince Edward Island,</subfield>
+    <subfield code="d">201x.</subfield>
+  </datafield>
+  <datafield tag="504" ind1="" ind2="">
+    <subfield code="a">Includes bibliographical references (leaves xxx-xxx).</subfield>
+  </datafield>
+  <datafield tag="520" ind1="3" ind2="">
+    <subfield code="a">[insert abstract from IslandScholar]</subfield>
+  </datafield>
+  <datafield tag="650" ind1="" ind2="0">
+    <subfield code="a"></subfield>
+  </datafield>
+  <datafield tag="710" ind1="2" ind2="0">
+    <subfield code="a">University of Prince Edward Island,</subfield>
+    <subfield code="e">degree granting institution.</subfield>
+  </datafield>
+  <datafield tag="710" ind1="2" ind2="0">
+    <subfield code="a">University of Prince Edward Island.</subfield>
+    <subfield code="b">Faculty of Xxxx.</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2="0">
+    <subfield code="u">http://www.islandscholar.ca/islandora/object/ir%XXXXXXX</subfield>
+    <subfield code="y">Full text via IslandScholar</subfield>
+  </datafield>
+</record>
