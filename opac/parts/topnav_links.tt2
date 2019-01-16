@@ -3,7 +3,7 @@
         <div id="header-links">
             <a href="http://library.upei.ca/">[% l('Library Home') %]</a>           
             <a href="/">[% l('Catalogue Home') %]</a>
-            <a href="http://cufts2.lib.sfu.ca/CJDB/PCU/browse">[% l('Find Journal Titles') %]</a>
+            <a href="http://search.ebscohost.com/login.aspx?authtype=ip,guest&direct=true&custid=uprince&db=edspub&groupid=main&profile=eds&plp=1">[% l('Find Journal Titles') %]</a>
             <a href="http://library.upei.ca/libraryhistory">[% l('About') %]</a>
             <a href="http://upei.ca/">[% l('UPEI') %]</a>
             <a href="http://open-ils.org/dokuwiki/doku.php?id=evergreen-user:opac_help">[% l('Help') %]</a>     
